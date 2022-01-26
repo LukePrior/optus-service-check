@@ -1,20 +1,24 @@
 {
-  "name": "Server",
+  "name": "optus-service-check",
   "version": "1.0.0",
-  "description": "Server for accessing Optus service check",
+  "description": "Very much a W.I.P.",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
-  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukePrior/optus-service-check.git"
   },
   "keywords": [],
   "author": "Luke Prior",
-  "license": "MIT",
-  "dependencies": {   
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",   
-    "express": "^4.17.1",   
-    "querystring": "^0.2.0",
-    "request": "^2.88.2"
-  }
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukePrior/optus-service-check/issues"
+  },
+  "homepage": "https://github.com/LukePrior/optus-service-check#readme"
 }
