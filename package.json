@@ -1,7 +1,7 @@
 {
   "name": "optus-service-check",
   "version": "1.0.0",
-  "description": "Very much a W.I.P.",
+  "description": "Optus service check API",
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.2",
