@@ -1,0 +1,20 @@
+{
+  "name": "Server",
+  "version": "1.0.0",
+  "description": "Server for accessing Optus service check",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  
+  },
+  "keywords": [],
+  "author": "Luke Prior",
+  "license": "MIT",
+  "dependencies": {   
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",   
+    "express": "^4.17.1",   
+    "querystring": "^0.2.0",
+    "request": "^2.88.2"
+  }
+}
